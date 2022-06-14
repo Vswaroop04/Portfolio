@@ -13,15 +13,17 @@ function About() {
     "Saturday"
   ];
   var dayName = days[d.getDay()];
+  
+  var day="afternoon";
 
   if (time > 12) {
-    var day = "Afternoon";
+    day = "Afternoon";
   }
 
   if (time > 18 && time < 24) {
-    var day = "Night";
+    day = "Night";
   } else {
-    var day = "Morning";
+    day = "Morning";
   }
   return (
     <div id="about">
