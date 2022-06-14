@@ -1,4 +1,5 @@
 import React from "react";
+import Emoji from "./Emoji.jsx";
 
 function Home() {
   const imgurl =
@@ -6,7 +7,7 @@ function Home() {
   return (
     <div className="home" id="home">
       <div class="intro col-lg-6">
-        <p>HI THERE &#128075; I'M</p>
+        <p>HI THERE <Emoji symbol="🤩" label="fun"/> I'M</p>
         <h1> Vishnu </h1>
         <h1> Swaroop </h1>
         <h3>
