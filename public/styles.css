@@ -1,0 +1,1250 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Verdana", sans-serif;
+}
+body {
+  background: #fd9047;
+}
+section {
+  background-color: #e7effa;
+}
+section i {
+  color: #009688 !important;
+}
+section .navbar-custom {
+  background-color: #e7effa;
+}
+section a.nav-link {
+  color: #009688 !important;
+}
+section footer {
+  font-size: 160% !important;
+}
+section footer i {
+  padding-right: 1%;
+  color: white !important;
+}
+section .vertical {
+  border-left: 3px solid #009688 !important;
+}
+
+section .vertical-right {
+  border-left: 3px solid #009688 !important;
+}
+.title img {
+  width: 35%;
+  height: 550px;
+  position: absolute;
+  left: 80%;
+  top: 1%;
+}
+.navbar-custom {
+  background-color: #fd9047;
+}
+.navbar-brand img {
+  width: 80px;
+  height: auto;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  margin-left: 13%;
+  color: whitesmoke;
+  font-family: "Alegreya SC";
+  font-size: 35px;
+  font-weight: 25;
+}
+.nav-item {
+  padding: 0 18px;
+}
+a.nav-link {
+  color: #ffffff !important;
+  font-family: "Alegreya SC" !important;
+  font-size: 20px !important;
+}
+a.nav-link:hover {
+  color: #302d2a !important;
+  text-decoration: none;
+}
+.vertical {
+  border-left: 3px solid #ffffff;
+  height: 300px;
+  position: fixed;
+  left: 3.57%;
+  top: 71%;
+}
+.line-right {
+  font-family: "Montessarat" !important;
+  color: #ffffff;
+  position: fixed;
+  right: 2.65%;
+  top: 65%;
+}
+.line-right a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.line-right i {
+  font-size: 30px;
+  display: block;
+  padding-bottom: 10px;
+}
+.line-right p {
+  padding: 3% 3%;
+  writing-mode: vertical-lr;
+  border: 3px solid #ffffff;
+}
+.line-right i:hover {
+  font-size: 35px;
+  transition: 0.1s ease-out;
+}
+
+.vertical-right {
+  border-left: 3px solid #ffffff;
+  height: 300px;
+  position: fixed;
+  right: 3.57%;
+  top: 71%;
+}
+.line {
+  color: #ffffff;
+  position: fixed;
+  left: 3%;
+  top: 55%;
+}
+.line a {
+  text-decoration: none;
+  color: inherit;
+}
+.line i {
+  font-size: 30px;
+  display: block;
+  padding-bottom: 10px;
+}
+.line i:hover {
+  font-size: 35px;
+  transition: 0.1s ease-out;
+}
+#navbarNav {
+  margin-right: 10% !important;
+}
+
+/* Body */
+
+.home {
+  background-color: #fd9047;
+  padding-top: 50px;
+}
+.intro {
+  padding-top: 4%;
+  margin-left: 20%;
+  padding-bottom: 3%;
+}
+.intro p {
+  margin-top: 3%;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.intro h1 {
+  font-family: "Bungee Inline";
+  font-size: 70px;
+}
+.intro h3 {
+  padding-bottom: 5px;
+  padding-top: 10px;
+  font-family: "Barrio";
+}
+.intro h3 img {
+  height: 30px;
+  width: auto;
+}
+.button {
+  padding-top: 2%;
+}
+
+/* About */
+
+.rcorners {
+  border-radius: 25px;
+  background: #f0ebeb;
+  padding: 20px;
+  width: 91%;
+  height: auto;
+  font-size: 28px;
+  font-family: "Alumni Sans";
+  padding-bottom: 20px;
+}
+
+.About {
+  margin-top: 95px;
+  margin-left: 10%;
+}
+
+.About h3 {
+  font-family: "Bakbak One";
+  font-size: 40px;
+  padding-bottom: 2%;
+  padding-right: 18%;
+  text-align: center;
+}
+
+/* SKILLS */
+
+.Skills {
+  margin-top: 95px;
+  margin-left: 19%;
+  margin-right: 11%;
+}
+
+.Skills h3 {
+  font-family: "Bakbak One";
+  font-size: 40px;
+  padding-bottom: 2%;
+  padding-right: 18%;
+  text-align: center;
+}
+.rcornersforskills {
+  border-radius: 25px;
+  background: #f0ebeb;
+  padding: 20px;
+  padding-right: 2%;
+  width: 91%;
+  height: auto;
+  font-size: 28px;
+  font-family: "Alumni Sans";
+  padding-bottom: 20px;
+}
+
+.skillsContainer {
+  text-align: center;
+  font-size: 0.7rem;
+  padding-right: 25px;
+}
+
+.skillsGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(80px, 1fr)) [auto-fill];
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  grid-column-gap: 50px;
+  grid-row-gap: 40px;
+}
+
+.skillsGrid li {
+  padding-top: 16px;
+
+  list-style-type: none;
+  background: rgb(255, 255, 255);
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin: 20px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+.skillsGrid li:hover {
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  -webkit-box-shadow: 0px 8px 16px rgba(134, 151, 168, 0.1);
+  box-shadow: 0px 8px 16px rgba(134, 151, 168, 0.1);
+}
+.skillsGrid li p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.skillsGrid li img {
+  width: 60px;
+  height: 45px;
+}
+
+/* Project List */
+.Project {
+  margin-top: 95px;
+  margin-left: 10%;
+}
+.Project h3 u {
+  padding-left: 40%;
+  font-family: "Bakbak One";
+  font-size: 40px;
+  padding-right: 18%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.rcornersforProjectoutside {
+  margin-top: 25px;
+  border-radius: 25px;
+  background: #ffffff;
+  padding: 20px;
+  width: 91%;
+  height: auto;
+  font-size: 28px;
+  font-family: "Alumni Sans";
+  padding-bottom: 20px;
+}
+/* .rcornersforProject {
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 25px;
+  background: #f0ebeb;
+  width: 925px;
+  height: 311px;
+  font-size: 28px;
+  font-family: "Alumni Sans";
+} */
+
+.workBox {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 15px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+.workBox:hover {
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  -webkit-box-shadow: 0px 8px 16px rgba(134, 151, 168, 0.1);
+  box-shadow: 0px 8px 16px rgba(134, 151, 168, 0.1);
+}
+
+.workBox:first-child {
+  margin-top: 0;
+}
+
+.workBox .workImageContainer {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 350px;
+  flex: 0 0 350px;
+  border-radius: 10px;
+  height: auto;
+}
+
+.workBox .workImageContainer img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  height: 330px;
+}
+
+.workBox .workDescribeContainer {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 calc(100% - 350px);
+  flex: 0 1 calc(100% - 350px);
+  margin-left: 25px;
+}
+
+.workBox .workDescribeContainer h3 {
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+}
+
+.workBox .workDescribeContainer ul {
+  list-style: disc inside;
+  font-size: 1.4rem;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.workBox .workDescribeContainer ul li:not(:first-child) {
+  margin-top: 10px;
+}
+
+.workBox .workDescribeContainer p {
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.workBox .workDescribeContainer h4 {
+  font-size: 1rem;
+  margin-top: 7px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+.workBox .workDescribeContainer h4 span {
+  color: #8444df;
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.workBox .workDescribeContainer .workLinks {
+  margin-top: 50px;
+}
+
+.workBox .workDescribeContainer .workLinks a {
+  font-size: 1.1rem;
+  margin-right: 20px;
+  color: #8444df;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.workBox .workDescribeContainer .workLinks a:focus {
+  border: 2px solid #8444df;
+}
+/* certificates */
+.certificates {
+  margin-top: 95px;
+  margin-left: 10%;
+}
+.certificates h3 {
+  font-family: "Bakbak One";
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.carousel-inner > .carousel-item > img {
+  height: 500px !important;
+  width: 820px !important;
+}
+
+.rcornersforcertificates {
+  margin-left: 15%;
+  border-radius: 25px;
+  background: #f0ebeb;
+  width: 60%;
+  height: auto;
+  font-size: 32px;
+  font-family: "Alumni Sans";
+}
+
+/* Contact */
+.contact {
+  margin-top: 95px;
+}
+.contact h3 {
+  margin-left: 10%;
+  padding: 35px;
+  font-family: "Bakbak One";
+  font-size: 40px;
+  text-align: center;
+}
+.contactContainer h3 {
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+}
+
+.contactContainer .contactForm {
+  margin-top: 48px;
+}
+
+.contactTypes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.contactTypes .flexContainer {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-right: 10px;
+}
+
+.contactTypes .flexContainer:first-child {
+  padding: 0 15px 0 0;
+  margin-right: 13px;
+  border-radius: 15px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.contactTypes .flexContainer:first-child:hover {
+  transition: all 0.3s ease-in;
+  -webkit-box-shadow: 0px 8px 16px rgba(134, 151, 168, 0.1);
+  box-shadow: 0px 8px 16px rgba(134, 151, 168, 0.1);
+}
+
+.contactTypes .flexContainer:last-child {
+  padding: 0 20px 0 15px;
+  margin-right: 10px;
+  border-radius: 15px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+.contactTypes .flexContainer:last-child:hover {
+  transition: all 0.3s ease-in;
+  -webkit-box-shadow: 0px 8px 16px rgba(134, 151, 168, 0.1);
+  box-shadow: 0px 8px 16px rgba(134, 151, 168, 0.1);
+}
+
+.contactTypes .flexContainer .typeBox {
+  -webkit-box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+  box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  border: 1px solid #eee;
+  padding: 24px;
+  border-radius: 15px;
+}
+
+.contactTypes .flexContainer .typeBox i {
+  display: inline-block;
+  padding: 18px;
+  background: #f7f7f7;
+  border-radius: 7px;
+  font-size: 1.7rem !important;
+  margin-bottom: 25px;
+}
+
+.contactTypes .flexContainer .typeBox .lni-calendar {
+  color: #1267d0;
+  background-color: #e7effa;
+}
+
+.contactTypes .flexContainer .typeBox .lni-envelope {
+  color: #82c690;
+  background-color: #f3f9f4;
+}
+
+.contactTypes .flexContainer .typeBox a {
+  display: block;
+  margin-bottom: 15px;
+  color: #333;
+  text-decoration: underline;
+  font-size: 28px;
+}
+
+.contactTypes .flexContainer .typeBox a:focus {
+  border: 2px solid #8444df;
+}
+
+.contactTypes .flexContainer .typeBox p {
+  font-size: 1.7rem;
+  color: #5f6f81;
+}
+
+.contactFormContainer {
+  margin-top: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.contactFormContainer form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr);
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  -webkit-column-gap: 25px;
+  column-gap: 25px;
+  margin-bottom: 35px;
+}
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.contactFormContainer form input,
+.contactFormContainer form textarea {
+  border: 1px solid #eee;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  padding: 11px 20px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.contactFormContainer form input:focus,
+.contactFormContainer form textarea:focus {
+  border-color: #80bdff;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.contactFormContainer form textarea {
+  resize: none;
+}
+
+.contactFormContainer form ::-webkit-input-placeholder {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: #6c757d;
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+}
+
+.contactFormContainer form :-ms-input-placeholder {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: #6c757d;
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+}
+
+.contactFormContainer form ::-ms-input-placeholder {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: #6c757d;
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+}
+
+.contactFormContainer form ::placeholder {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: #6c757d;
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+}
+
+.contactFormContainer form .subjectInput,
+.contactFormContainer form .messageInput {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 /3;
+}
+
+.contactFormContainer button {
+  padding: 14px 40px;
+  font-size: 0.9rem;
+  border: none;
+  background-color: #8444df;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 40px;
+  width: 140px;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.contactFormContainer button:focus {
+  border-color: #80bdff;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.contactFormContainer button:hover {
+  -webkit-box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.2);
+}
+
+.contact h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.rcornersforcontact {
+  margin-left: 10%;
+  border-radius: 25px;
+  background: #f0ebeb;
+  padding: 20px;
+  width: 82%;
+  height: auto;
+  font-size: 28px;
+  font-family: "Alumni Sans";
+  padding-bottom: 20px;
+}
+
+/* footer */
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0ebeb;
+}
+
+footer p {
+  margin: 0 auto;
+  color: #333;
+  font-family: "Alegreya SC";
+  font-size: 1rem;
+  text-align: center;
+}
+
+.list-inline {
+  display: none;
+}
+
+#myBtn {
+  position: fixed;
+  right: 1%;
+  top: 94%;
+  font-size: 34px;
+}
+
+/* Media Query  */
+
+/**********************/
+/*   MAX WIDTH PX  */
+/**********************/
+@media (max-width: 1048px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .intro {
+    text-align: center;
+
+    padding-top: 4%;
+    padding-bottom: 3%;
+  }
+  .intro p {
+    margin-top: 3%;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+  }
+  .intro h1 {
+    font-family: "Bungee Inline";
+    font-size: 40px;
+  }
+  .intro h3 {
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-family: "Barrio";
+  }
+  .intro h3 img {
+    height: 20px;
+    width: auto;
+  }
+  .button {
+    height: 15px;
+    font-size: 15px;
+    padding-top: 2%;
+  }
+
+  .navbar-brand img {
+    margin-right: 20px;
+    width: 45px;
+    height: 50px;
+  }
+  .line {
+    display: none;
+  }
+  .line-right {
+    display: none;
+  }
+  .title img {
+    display: none;
+  }
+  .About {
+    margin-top: 95px;
+    margin-left: 5%;
+  }
+
+  .About h3 {
+    font-family: "Bakbak One";
+    font-size: 40px;
+    padding-bottom: 2%;
+    padding-right: 18%;
+    text-align: center;
+  }
+  .About P {
+    font-size: 35px;
+  }
+
+  .Skills {
+    margin-top: 70px;
+    margin-left: 6%;
+  }
+
+  .Skills h3 {
+    font-family: "Bakbak One";
+    font-size: 40px;
+    padding-bottom: 2%;
+    margin-left: 15%;
+  }
+
+  .rcornersforskills {
+    margin-left: 10%;
+    border-radius: 25px;
+    background: #f0ebeb;
+    width: 91%;
+    height: auto;
+    font-size: 40px;
+    font-family: "Alumni Sans";
+  }
+  .skillsGrid li {
+    padding-top: 0px;
+    list-style-type: none;
+    background: rgb(255, 255, 255);
+    height: 40px;
+    width: 45px;
+
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgb(0, 0, 0);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  }
+  .skillsGrid li:hover {
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    -webkit-box-shadow: 0px 8px 16px rgba(134, 151, 168, 0.1);
+    box-shadow: 0px 8px 16px rgba(134, 151, 168, 0.1);
+  }
+  .skillsGrid li p {
+    font-size: 22px;
+  }
+  .skillsGrid li img {
+    width: 45px;
+    height: 30px;
+  }
+  .skillsContainer {
+    text-align: center;
+    font-size: 0.6rem;
+  }
+
+  .skillsGrid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(90px, 1fr)) [auto-fill];
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    grid-column-gap: 1px;
+    grid-row-gap: 10px;
+  }
+
+  .Project {
+    margin-top: 70px;
+    margin-left: 5%;
+  }
+  .Project h3 u {
+    padding-left: 37%;
+    font-family: "Bakbak One";
+    font-size: 40px;
+    padding-bottom: 2%;
+    padding-right: 8%;
+    text-align: center;
+  }
+  .rcornersforProjectoutside {
+    margin-left: 10%;
+    border-radius: 25px;
+    background: #f0ebeb;
+    width: 80%;
+    height: auto;
+    font-size: 16px;
+    font-family: "Alumni Sans";
+  }
+
+  .sectionContainer {
+    background-color: transparent;
+    padding: 0;
+  }
+  .aboutContainer {
+    line-height: 1.3;
+    font-size: 1rem;
+  }
+  .workBox {
+    display: block;
+    padding: 0;
+  }
+  .workBox .workImageContainer {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .workBox .workDescribeContainer {
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .workBox .workDescribeContainer .workLinks {
+    margin-top: 25px;
+  }
+  .skillsGrid {
+    row-gap: 15px;
+    -webkit-column-gap: 15px;
+    column-gap: 15px;
+  }
+
+  .workBox .workDescribeContainer h3 {
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+  }
+
+  .workBox .workDescribeContainer ul {
+    list-style: disc inside;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    margin-top: 20px;
+  }
+
+  .workBox .workDescribeContainer p {
+    font-size: 0.6rem;
+    margin-top: 20px;
+  }
+
+  .workBox .workDescribeContainer h4 {
+    font-size: 0.7rem;
+    margin-top: 7px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+  /* c */
+
+  .certificates {
+    margin-top: 95px;
+    margin-left: 3%;
+  }
+  .certificates h3 {
+    font-family: "Bakbak One";
+    font-size: 40px;
+    padding-bottom: 2%;
+    padding-right: 9%;
+    text-align: center;
+  }
+
+  .carousel-inner > .carousel-item > img {
+    width: 750px !important;
+    height: auto;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .rcornersforcertificates {
+    margin-left: 10%;
+    border-radius: 25px;
+    background: #f0ebeb;
+    width: 750px;
+    height: auto;
+    font-size: 16px;
+    font-family: "Alumni Sans";
+  }
+
+  .rcorners {
+    margin-left: 10%;
+    border-radius: 25px;
+    background: #f0ebeb;
+    padding: 10px;
+    width: 82%;
+    height: auto;
+    font-size: 18px;
+    font-family: "Alumni Sans";
+    padding-bottom: 10px;
+  }
+  .list-inline {
+    display: block;
+  }
+  .contactTypes {
+    display: block;
+  }
+  .contactTypes .flexContainer {
+    max-width: 100%;
+  }
+  .contactTypes .flexContainer:first-child {
+    padding: 0;
+  }
+  .contactTypes .flexContainer:last-child {
+    padding: 0;
+  }
+  .contactTypes .flexContainer .typeBox:first-child {
+    margin-bottom: 15px;
+  }
+}
+
+/**********************/
+/*   MAX WIDTH 400PX  */
+/**********************/
+
+@media (max-width: 400px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .intro {
+    text-align: left;
+    margin-right: 10%;
+  }
+  .navbar-brand img {
+    width: 40px;
+    height: 45px;
+  }
+  .line {
+    display: none;
+  }
+
+  .title img {
+    display: none;
+  }
+  .list-inline {
+    display: block;
+  }
+  .button {
+    height: 15px;
+    font-size: 15px;
+    padding-top: 2%;
+  }
+  .Project {
+    margin-top: 95px;
+    margin-left: 5%;
+  }
+  .rcorners {
+    border-radius: 25px;
+    background: #f0ebeb;
+    width: 310px;
+    height: 240px;
+    font-size: 16px;
+    font-family: "Alumni Sans";
+    padding-bottom: 5px;
+  }
+  .About {
+    margin-top: 95px;
+    margin-left: 3%;
+  }
+
+  .About h3 {
+    font-family: "Bakbak One";
+    font-size: 20px;
+    padding-bottom: 2%;
+    padding-right: 9%;
+    text-align: center;
+  }
+  .About p {
+    font-size: 15px;
+  }
+
+  .Skills {
+    margin-top: 70px;
+    margin-left: 3%;
+  }
+
+  .Skills h3 {
+    font-family: "Bakbak One";
+    font-size: 20px;
+    padding-bottom: 2%;
+    padding-right: 8%;
+    text-align: center;
+  }
+  .rcornersforskills {
+    border-radius: 25px;
+    background: #f0ebeb;
+    width: 310px;
+    height: auto;
+    font-size: 16px;
+    font-family: "Alumni Sans";
+  }
+  .skillsGrid {
+    padding-right: 20px;
+  }
+  .skillsGrid li {
+    padding-top: 0px;
+    list-style-type: none;
+    background: rgb(255, 255, 255);
+    height: 20px;
+    width: 25px;
+
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgb(0, 0, 0);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  }
+  .skillsGrid li:hover {
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    -webkit-box-shadow: 0px 8px 16px rgba(134, 151, 168, 0.1);
+    box-shadow: 0px 8px 16px rgba(134, 151, 168, 0.1);
+  }
+  .skillsGrid li p {
+    font-size: 10px;
+  }
+  .skillsGrid li img {
+    width: 20px;
+    height: 15px;
+  }
+  .skillsContainer {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+
+  .skillsGrid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(40px, 1fr)) [auto-fill];
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    grid-column-gap: 1px;
+    grid-row-gap: 10px;
+  }
+
+  .Project {
+    margin-top: 70px;
+    margin-left: 5%;
+  }
+  .Project h3 u {
+    padding-left: 37%;
+    font-family: "Bakbak One";
+    font-size: 20px;
+    padding-bottom: 2%;
+    padding-right: 8%;
+    text-align: center;
+  }
+  .rcornersforProjectoutside {
+    margin-left: 6%;
+    border-radius: 25px;
+    background: #f0ebeb;
+    width: 310px;
+    height: auto;
+    font-size: 16px;
+    font-family: "Alumni Sans";
+  }
+
+  .sectionContainer {
+    background-color: transparent;
+    padding: 0;
+  }
+  .aboutContainer {
+    line-height: 1.3;
+    font-size: 1rem;
+  }
+  .workBox {
+    display: block;
+    padding: 0;
+  }
+  .workBox .workImageContainer {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .workBox .workDescribeContainer {
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .workBox .workDescribeContainer .workLinks {
+    margin-top: 25px;
+  }
+  .skillsGrid {
+    row-gap: 15px;
+    -webkit-column-gap: 15px;
+    column-gap: 15px;
+  }
+
+  .workBox .workDescribeContainer h3 {
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+  }
+
+  .workBox .workDescribeContainer ul {
+    list-style: disc inside;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    margin-top: 20px;
+  }
+
+  .workBox .workDescribeContainer p {
+    font-size: 0.6rem;
+    margin-top: 20px;
+  }
+
+  .workBox .workDescribeContainer h4 {
+    font-size: 0.7rem;
+    margin-top: 7px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+  /* c */
+
+  .certificates {
+    margin-top: 95px;
+    margin-left: 3%;
+  }
+  .certificates h3 {
+    font-family: "Bakbak One";
+    font-size: 20px;
+    padding-bottom: 2%;
+    padding-right: 9%;
+    text-align: center;
+  }
+
+  .carousel-inner > .carousel-item > img {
+    width: 310px !important;
+    height: auto;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .rcornersforcertificates {
+    margin-left: 6%;
+    border-radius: 25px;
+    background: #f0ebeb;
+    width: 310px;
+    height: auto;
+    font-size: 16px;
+    font-family: "Alumni Sans";
+  }
+  .contact {
+    margin-top: 95px;
+  }
+  .contact h3 {
+    margin-left: 2%;
+    font-family: "Bakbak One";
+    font-size: 20px;
+    text-align: center;
+  }
+  .contactContainer h3 {
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+  }
+  .rcornersforcontact {
+    margin-left: 9%;
+    border-radius: 25px;
+    background: #f0ebeb;
+    padding: 20px;
+    width: 310px;
+    height: auto;
+    font-size: 20px;
+    font-family: "Alumni Sans";
+    padding-bottom: 20px;
+  }
+
+  .contact h2 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .contactTypes .flexContainer .typeBox a {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+  .contactTypes .flexContainer .typeBox p {
+    font-size: 0.9rem;
+    color: #5f6f81;
+  }
+  .contactFormContainer form input,
+  .contactFormContainer form textarea {
+    max-width: 380px;
+  }
+  #myBtn {
+    position: fixed;
+    right: 2%;
+    top: 94%;
+    font-size: 34px;
+  }
+}
