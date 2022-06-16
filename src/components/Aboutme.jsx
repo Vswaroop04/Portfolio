@@ -164,7 +164,7 @@ function Aboutme() {
 
                 <a
                   style={{ paddingLeft: "35%", textDecoration: "none" }}
-                  href="https://www.fiverr.com/vishnuswaroo674?up_rollout=true"
+                  href="https://www.fiverr.com/vishnuswaroo674"
                 >
                   <button
                     type="button"
