@@ -2,16 +2,14 @@ import React from "react";
 
 function Header() {
   const url = "https://i.ibb.co/TvNd5b9/Capture.png";
-
+  const url2 =
+    "https://i.ibb.co/4mqSDsP/e46b6154-056a-491f-b330-a6d1bc542541.jpg";
 
   return (
     <nav
       id="navbar"
       className="navbar navbar-expand-lg navbar-light navbar-custom"
     >
-      <a className="navbar-brand" href="#Home">
-        <img src={url} alt="VishnuSwaroop" />
-      </a>
       <button
         className="navbar-toggler"
         type="button"

@@ -132,11 +132,61 @@ function Skills() {
               <li>
                 <div class="itemContainer">
                   <img
-                    src="https://i.ibb.co/Ht2hNRJ/flask-logo-png-transparent.png"
+                    src="https://gydocument.readthedocs.io/en/latest/_images/logo.svg"
                     alt="flask-logo-png-transparent"
                     border="0"
                   />
-                  <p>Flask</p>
+                  <p>Solidity</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img
+                    src="https://res.cloudinary.com/divzjiip8/image/upload/v1624392472/logos/ethers_blue.png"
+                    alt="flask-logo-png-transparent"
+                    border="0"
+                  />
+                  <p>Ethers.js</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img
+                    src="https://seeklogo.com/images/H/hardhat-logo-888739EBB4-seeklogo.com.png"
+                    alt="flask-logo-png-transparent"
+                    border="0"
+                  />
+                  <p>Hardhat</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img
+                    src="https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png"
+                    alt="flask-logo-png-transparent"
+                    border="0"
+                  />
+                  <p>Next.Js</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img
+                    src="https://camo.githubusercontent.com/3f51c9e4df2ed06b09943fce5082aa1b87de388710df73a072ed260a1fbfcf36/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f747970657363726970742e737667"
+                    alt="flask-logo-png-transparent"
+                    border="0"
+                  />
+                  <p>Typescript</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png"
+                    alt="flask-logo-png-transparent"
+                    border="0"
+                  />
+                  <p>GraphQL</p>
                 </div>
               </li>
             </ul>

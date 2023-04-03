@@ -34,10 +34,10 @@ function About() {
           <p> Good {day}, Fellow Developer &#128075; </p>
           <p>
             {" "}
-            This Is Kanakam Venkata Vishnu Swaroop. I am a Sophomore at
+            This Is Kanakam Venkata Vishnu Swaroop. I am a Third-year Undergrad at
             IIITV-ICD. I am passionate about leveraging my diverse backgrounds
             to decipher challenging problems and create delightful experiences.
-            I honed my skills at web & Android development, UI Designing and SEO
+            I honed my skills at Web & Blockchain development and SEO
             analytics.{" "}
           </p>
           <p>This Is Some Info About Me, Have a Good {dayName} &#128512; </p>
