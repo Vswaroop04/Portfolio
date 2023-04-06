@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="home" id="home">
       <div class="intro col-lg-6">
-        <p>HI THERE <span role="img"> &#128075; </span> I'M</p>
+        <p>HI THERE ! I'M</p>
         <h1> Vishnu </h1>
         <h1> Swaroop </h1>
         <h3>
