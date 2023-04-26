@@ -272,7 +272,7 @@ function Project(props) {
                 </ul>
                 <div class="workLinks">
                   <a
-                    href="http://vswaroop04.centralindia.cloudapp.azure.com:4000/"
+                    href="http://vishnuswaroop.centralindia.cloudapp.azure.com:3300/"
                     class="liveLink"
                     target="_blank"
                     rel="noopener noreferrer"
