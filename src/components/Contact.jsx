@@ -1,6 +1,8 @@
 import React from "react";
 
 function Contact() {
+
+  console.log("Contact Form")
   return (
     <div id="contact">
       <div className="contact">
@@ -19,7 +21,7 @@ function Contact() {
                 <div class="typeBox">
                   <i class="lni lni-envelope fa-solid fa-envelope"></i>{" "}
                   <a href="mailto:vswaroop04@gmail.com">vswaroop04@gmail.com</a>
-                  <p> Email Me</p>
+                  <p> Email Me  </p>
                 </div>
               </div>
               <div class="flexContainer">
@@ -91,7 +93,7 @@ function Contact() {
                 form="contactForm"
                 rel="noopener noreferrer"
               >
-                SEND
+                Send
               </button>
             </div>
           </div>
