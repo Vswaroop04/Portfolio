@@ -45,7 +45,7 @@ function Project(props) {
                 </ul>
                 <div class="workLinks">
                   <a
-                    href="http://vishnuswaroop.centralindia.cloudapp.azure.com:4000/"
+                    href="https://digiicerti.vercel.app/"
                     class="liveLink"
                     target="_blank"
                     rel="noopener noreferrer"
